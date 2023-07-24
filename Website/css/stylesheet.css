@@ -1,0 +1,378 @@
+a:hover{
+    opacity: 70%;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+.main_container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 2fr 1fr 0.5fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin: -0.5vw;
+    background-color: #fff;
+}
+
+h1{
+    font: 500 1.5em 'Poppins', sans-serif;
+}
+
+h2{
+    font: 1.5em 'Poppins', sans-serif;
+}
+
+#banner{
+    display: flex;
+    flex-direction: row;
+    grid-area: 1 / 1 / 2 / 6;
+    height: auto;
+    width: auto;
+    margin: 0;
+    background: linear-gradient(0deg, #408D44 0%, #095115 90%);
+}
+
+#banner_logo{
+    height: 6vw;
+    width: auto;
+    padding: 1em 0 2em 2em;
+}
+
+.name{
+    display: flex;
+    flex-direction: column;
+}
+
+#fresh_foods{
+    color: #fff;
+    font: 2em 'Josefin Sans', sans-serif;
+    padding: 1vh 0 0 5vw;
+    margin-bottom: 0;
+}
+
+.slogan{
+    color: #fff;
+    font: 400 1.2em 'Poppins', sans-serif;
+    padding-left: 5vw;
+    margin-bottom: 1vh;
+}
+
+.support_slogan,
+.loyalty_slogan{
+    margin: 10vh 0 0 -17.1vw;
+}
+
+.nav{
+    display: flex;
+    flex-direction: row-reverse;
+    grid-area: 2 / 1 / 4 / 6;
+    background-color: #EAE262;
+}
+
+.loyalty_nav{
+    font: 500 1em 'Poppins', sans-serif;
+    color: #000;
+    margin: 1.5vh 24vw 0 0;
+}
+
+.home_nav{
+    font: 500 1em 'Poppins', sans-serif;
+    color: #000;
+    margin: 1.5vh 28vw 0 0; 
+}
+
+.support{
+    font: 400 1em 'Poppins', sans-serif;
+    color: #000;
+    margin: 0 2vw 2vh 0;
+}
+
+.support_icon{
+    height: 2vw;
+    width: auto;
+    padding: 1vh 2vw 0 2vw;
+    margin-bottom: -1vh;
+}
+
+.citrus_img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 3vh;
+}
+
+.welcome_message{
+    grid-area: 4 / 2 / 7 / 5;
+    font: 400 1em 'Poppins', sans-serif;
+    text-align: center;
+    padding-bottom: 5vh;
+}
+
+.fresher_food{
+    padding: 0 0 10vh 0;
+}
+
+.inspiration{
+    background-color: #408D44;
+    padding: 2vh 0 5vh 0;
+    margin-bottom: -5vh;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+}
+
+.recipes{
+    display: block;
+    padding: 15vh 15vw 0 10vw;
+    color: #fff;
+}
+
+.recipe_link{
+    color: #095115;
+}
+
+.fish_tacos{
+    width: 40vw;
+    height: 38vh;
+    margin-top: 5vh;
+    border: 0.5vw #fff solid;
+}
+
+.location{
+    background-color: #EAE262;
+    text-align: center;
+    margin: 0;
+}
+
+.map{
+    grid-area: 7 / 3 / 10 / 4;
+}
+
+.google_map{
+    height: 50vh;
+    width: 98.5vw;
+}
+
+.footer_logo_home{
+    height: 14vh;
+    width: 7vw;
+    margin: 0 0 -10vh 9vw;
+}
+
+.footer_logo{
+    height: 14vh;
+    width: 7vw;
+    margin: 0 0 -10vh 5vw;
+}
+
+.sitemap_title{
+    font: 1.5em 'Josefin Sans', sans-serif;
+    padding: 0 0 1vh 79.8vw;
+    margin: -2vh 0 0 0.5vh;
+    color: #095115;
+}
+
+.sitemap{
+    display: flex;
+    flex-direction: column;
+    padding: 0 0 2vh 80vw;
+    font: 400 1em 'Poppins', sans-serif;
+}
+
+.home_link,
+.loyalty_link{
+    color: #095115;
+}
+
+.support_link{
+    margin: 1vh 0 2vh 0;
+    color: #095115;
+}
+
+.foodie_link{
+    margin: 1vh 32vw 2vh -15vw;
+}
+
+.fresh_link{
+    margin: 1vh 25vw 0 -15vw;
+}
+
+.footer{
+    grid-area: 10 / 1 / 11 / 6;
+    display: flex;
+    flex-direction: column;
+    padding: 2vh 0 3vh 0;
+    background-color: #408D44;
+    border-bottom: 2vh #095115 solid;
+}
+
+.loyalty_container{
+    background-image: url("limes.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.background{
+    grid-area: 4 / 2 / 10 / 5;
+    background-color: rgba(255,255,255, 0.95);
+}
+
+
+.sign_up_info{
+    grid-area: 4 / 2 / 7 / 5;
+    font: 400 1em 'Poppins', sans-serif;
+    text-align: center;
+    width: 60vw;
+    padding: 5vh 3vw 70vh 8vw;
+    margin-bottom: -55vh;
+}
+
+.table_imgs{
+    display: flex;
+    flex-direction: row;
+}
+
+.lifestyle_imgs1{
+    display: flex;
+    flex-direction: column-reverse;
+    padding-top: 10vh;
+}
+
+.grapes{
+    height: 20vh;
+    width: 15vw;
+    opacity: 80%;
+}
+
+.basket{
+    height: 20vh;
+    width: 15vw;
+    padding-bottom: 7vh;
+    opacity: 80%;
+}
+
+table{
+    padding: 10vh 0 0 5vw;
+}
+
+th,
+td{
+    border: 2px solid #EAE262;
+    padding: 1vw;
+}
+
+.strawberries{
+    height: 48vh;
+    width: 15vw;
+    padding: 11vh 0 0 5vw;
+    opacity: 80%;
+}
+
+.signup_form{
+    grid-area: 7 / 3 / 7 / 4;
+}
+
+form{
+    color: #fff;
+    background-color: #408d44db;
+    border-radius: 5%;
+    padding: 3vh 3vw 5vh 3vw;
+    position: relative;
+    box-shadow: 2px 2px 10px #5e5d58;
+    margin: -2vh 0 10vh -2vw;
+}
+
+label{
+    display: flex;
+    align-items: flex-start;
+    font: 400 1em 'Poppins', sans-serif;
+}
+
+input{
+    display: flex;
+    align-items: flex-end;
+    border-color: #5e5d58;
+    border-radius: 5px;
+    background-color: rgb(251, 251, 241);
+    height: 1.5em;
+}
+
+.form_cta{
+    text-align: center;
+}
+
+::placeholder{
+    font: italic 100 1em sans-serif;
+    color: darkgray;
+}
+
+#Submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(0deg, #408D44 0%, #095115 99%);
+    border-radius: 10%;
+    height: 5vh;
+    width: 5vw;
+    color: #fff;
+    left: 15.5vw;
+}
+
+.customer_container{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 2fr 1fr 0.5fr;
+    background-color: #fff;
+}
+
+.support_info{
+    font: 400 1em 'Poppins', sans-serif;
+    text-align: center;
+    width: 90vw;
+    padding: 5vh 0 10vh 5vw;
+}
+
+.contact_info{
+    text-align: left;
+    padding: 10vh 35vw 2vh 5vw;
+}
+
+.supportMap{
+    margin-right: 45vw;
+    height: 50%;
+    width: 40%;
+}
+
+.support_form{
+    width: 25vw;
+    margin: 36vh 0 10vh -37vw;
+    grid-area: 6 / 1 / 7 / 2;
+}
+
+select{
+    border-radius: 5px;
+    border: 2px solid #5e5d58;
+    background-color: rgb(251, 251, 241);
+    height: 2em;
+}
+
+textarea{
+    border: 2px solid #5e5d58;
+    background-color: rgb(251, 251, 241);
+    height: 20vh;
+    width: 25vw;
+}
+
+#query_submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    background: linear-gradient(0deg, #408D44 0%, #095115 99%);
+    border-radius: 10%;
+    height: 5vh;
+    width: 5vw;
+    color: #fff;
+    margin: 2vh 0 0 10vw;
+}

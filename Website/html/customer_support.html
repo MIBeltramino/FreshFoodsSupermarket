@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Customer Support</title>
+        <meta charset="UTF-8">
+        <link href="../css/stylesheet.css"  type="text/css" rel="stylesheet"> <!--- fix to put css in it's own folder-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+        <script src="../JavaScript/javaScript.js" async></script>
+    </head>
+
+    <body>
+        <div class="main_container customer_container">
+            <div id="banner">
+                <a href="index.html"><img src="../images/freshFoodsLogoW.png" alt="Fresh Foods Logo" id="banner_logo"></a>
+                <h1 id="fresh_foods">Fresh Foods</h1>
+                <h2 class="slogan support_slogan">The Local Supermarket with the Freshest Produce</h2>
+            </div>
+
+            <div class="nav" role="navigation">
+                <a href="loyalty_program.html" class="loyalty_nav foodie_link">Fresh Foodie Loyalty Program</a> 
+                <a href="index.html" class="home_nav fresh_link">Fresh Foods Home</a>
+            </div>
+
+            <div class="support_info">
+                <h1>Customer Support Centre</h1>
+                <p>
+                    Have a question or something not quite right?<br>We want to know how we can improve our services, give us a call or send us an email using our contact form.
+                </p>
+                <div class="contact_info">
+                    <h2>Contact Information</h2>
+                    <p>
+                        Email: customercare@freshfoods.com<br>
+                        Phone: 549238139<br>
+                        Address: 1909 Somewhere St, Ekatahuna
+                    </p>
+                </div>
+                <iframe  class ="supportMap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1378.0324203190871!2d175.70461502757414!3d-40.64602868596782!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d410439b212eef3%3A0x500ef6143a2c170!2sEket%C4%81huna%2C%20New%20Zealand!5e0!3m2!1sen!2sar!4v1674842382476!5m2!1sen!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div>
+                <form name="support_form" class="support_form" onsubmit="return validateSupport()" method="post">
+                    <h2>Fresh Foods Contact Form</h2>
+                    <label for="first_name">First name:</label>
+                    <input id="first_name" type="text" placeholder="Jane"><br>
+                    <label for="last_name">Last name:</label>
+                    <input id="last_name" type="text" placeholder="Doe"><br>
+                    <label for="query_email">Email:</label>
+                    <input id="query_email" type="email" placeholder="jane.doe@email.com">
+                    <br>
+                    <label for="query_type">What is your query about?<br>Please select from the options below:</label>
+                    <select name ="queryType" id="query_type">
+                        <option value="product">Product</option>
+                        <option value="service">Service</option>
+                        <option value="fresh_foodie">Fresh Foodie Loyalty Program</option>
+                        <option value="other">Other</option>
+                    </select>
+                    <br><br>
+                    <label for="concern">Please enter your query below:</label> 
+                    <textarea id="concern"></textarea>    
+                    <input type="submit" value="Submit" id="query_submit" aria-label="Send query form">       
+                </form>
+            </div>
+
+            <div class="footer">
+                <img src="../images/freshFoodsLogoG.png" alt="Fresh Foods Logo" class="footer_logo">
+                <h2 class="sitemap_title">Sitemap</h2>
+                <div class="sitemap">
+                    <a href="index.html" class="home_link">Home</a>
+                    <a href="loyalty_program.html" class="loyalty_link">Loyalty Program</a>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>

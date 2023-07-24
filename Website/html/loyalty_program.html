@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Loyalty Program</title>
+        <meta charset="UTF-8">
+        <link href="../css/stylesheet.css"  type="text/css" rel="stylesheet"> <!--- fix to put css in it's own folder-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&family=Poppins:wght@400;500&display=swap" rel="stylesheet">
+        <script src="../JavaScript/javaScript.js" async></script>
+    </head>
+
+    <body>
+        <div class="main_container loyalty_container">
+            <div id="banner">
+                <a href="index.html"><img src="../images/freshFoodsLogoW.png" alt="Fresh Foods Logo" id="banner_logo"></a>
+                <h1 id="fresh_foods">Fresh Foods</h1>
+                <h2 class="slogan loyalty_slogan">The Local Supermarket with the Freshest Produce</h2>
+            </div>
+
+            <div class="nav" role="navigation">
+                <a href="customer_support.html" class="support">Customer Support<img src="../images/support_icon.png" class="support_icon" alt="Headset"></a>
+                <a href="index.html" class="home_nav">Fresh Foods Home</a>
+            </div>
+
+            <div class="background"></div>
+
+            <div class="sign_up_info">
+                <h1>Fresh Foodie Rewards</h1>
+                <p>Welcome to the Fresh Foods loyalty plan.<br>
+                    Here at Fresh Foods, we value our customers as much as they value our quality products.
+                     We thought, what better way to stay connected and show support than offer rewards. <br><br>
+                    How will it work?<br>
+                    Just like our simple Fresh Food products, we want to keep our loyalty program simple
+                    and fresh.<br><br>
+                    Sign up today and start earning by entering your details below.
+                </p>
+                <div class="table_imgs">
+                    <div class="lifestyle_imgs1">
+                        <img class="grapes" src="../images/grapes.jpg" alt="Grapes on the vine">
+                        <img class="basket" src="../images/basket_in_hand.jpg" alt="A basket full of fresh produce">
+                    </div>
+                    <table>
+                        <tr>
+                            <th>Monthly Spend</th>
+                            <th>Reward</th>
+                        </tr>
+                        <tr>
+                            <td>$100-$199</td>
+                            <td>2.5%</td>
+                        </tr>
+                        <tr>
+                            <td>$200-$499</td>
+                            <td>5%</td>
+                        </tr>
+                        <tr>
+                            <td>$500-$999</td>
+                            <td>7.5%</td>
+                        </tr>
+                        <tr>
+                            <td>$1000 and above</td>
+                            <td>10%</td>
+                        </tr>                                                            
+                    </table>
+                    <img class="strawberries" src="../images/strawberries.jpg" alt="Cupped hands holding strawberries">
+
+                </div>
+
+            </div>
+
+            <div class="signup_form">
+                <form name="signup" onsubmit="return validate()" method="post">
+                    <h2 class="form_cta">Enter your details below to sign up</h2>
+                    <label for="fname_input">First name:</label>
+                    <input type="text" placeholder="John" id="fname_input"><br>
+                    <label for="lname_input">Last name:</label>
+                    <input type="text" id="lname_input" placeholder="Doe" size="40"><br>
+                    <label for="address_input">Address:</label>
+                    <input type="text" id="address_input" placeholder="123 Street name, Suburb, Region" size="60"><br>
+                    <label for="email_input">Email:</label>                             
+                    <input type="email" id="email_input" placeholder="john.doe@email.com"><br>
+                    <label for="birthday_input">Date of birth:</label>
+                    <input type="date" id="birthday_input"><br>                    
+                    <input type="submit" value="Submit" id="Submit" aria-label="Send Fresh Foods Loyalty Program form">
+                </form>
+            </div>
+
+            <div class="footer">
+                <img src="../images/freshFoodsLogoG.png" alt="Fresh Foods Logo" class="footer_logo">
+                <h2 class="sitemap_title">Sitemap</h2>
+                <div class="sitemap">
+                    <a href="index.html" class="home_link">Home</a>
+                    <a href="customer_support.html" class="support_link">Customer Support</a>
+                </div>
+            </div>
+
+        </div>
+
+    </body>
+
+</html>
